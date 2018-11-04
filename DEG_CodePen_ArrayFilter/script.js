@@ -35,3 +35,9 @@ function displayNames(people) {
 }
 
 document.querySelector('div').innerHTML = `${displayNames(houseStark)}`
+
+
+/*
+1. Why does the displayNames function have 'people.map'? Is it because 'filter' does not create 
+a new array, and we wanted a new array so we filter 'people' and then map it?
+*/
